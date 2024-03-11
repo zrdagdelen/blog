@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Дагделен Зейнап Реджеповна
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Зейнап
+last_name: Дагделен
 
 # Status emoji
 status:
@@ -17,34 +17,35 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: студентка ФФМиЕН РУДН
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: РУДН
+    url: https://www.rudn.ru/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Я люблю лепить, рисовать, то есть создавать что-то новое своими руками. Также мне интересно программирование и дизайн сайтов.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Творчество
+  - Фильмы
+  - Программирование
+  - Пробовать различные необычные и вкусные блюда
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Изобразительное искусство, лепка
+      institution: Изостудия
+      year: 2015
+    - course: Программирование на Python
+      institution: Сириус курсы. Образовательный центр
+      year: 2020
+    - course: Профильная математика
+      institution: Онлайн школа Фоксфорд
+      year: 2022
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -105,7 +106,7 @@ social:
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/zrdagdelen
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
@@ -120,5 +121,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Дагделен Зейнап Реджеповна -- студентка Российского Университета Дружбы Народов, обучается на факультете физико-математических и естественных наук. Занимается изучением программирования, высшей математики и в свободное время (что значит - очень редко) создает из глины фигурки, практикует навыки изонити и вышивания розочек из лент. Любит отдыхать, слушая музыку в наушниках, безума от беспроводных наушников. Хочет, чтобы наконец появился робот, который бы помогал ей находить ошибки в процессе выполнения лабораторных по операционным системам, чтобы на них не уходило слишком много времени, также хочет, чтобы была справедливая оценка этого труда.
 {style="text-align: justify;"}
