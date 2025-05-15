@@ -3,7 +3,7 @@
 title: 
 
 # Name pronunciation (optional)
-name_pronunciation: Зейнап Дагделен Реджеповна
+name_pronunciation: Дагделен Зейнап Реджеповна
 
 # Full name (for SEO)
 first_name: Зейнап
@@ -16,41 +16,25 @@ status:
 # Is this the primary user of the site?
 superuser: true
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
 # Role/position/tagline
 role: студентка ФФМиЕН РУДН
 
-# Organizations/Affiliations to display in Biography blox
+# Organizations/Affiliations to show in About widget
 organizations:
   - name: РУДН
     url: https://www.rudn.ru/
 
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+# Short bio (displayed in user profile at end of posts)
+bio: Я люблю лепить, рисовать, то есть создавать что-то новое своими руками. Также мне интересно программирование и дизайн сайтов.
 
+# Interests to show in About widget
 interests:
   - Творчество
+  - Фильмы
   - Программирование
   - Пробовать различные необычные и вкусные блюда
 
+# Education to show in About widget
 education:
   courses:
     - course: Изобразительное искусство, лепка
@@ -64,22 +48,25 @@ education:
       year: 2022
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Technical Skills
+  - name: Technical
     items:
       - name: Python
         description: ''
         percent: 80
-        icon: code-bracket
+        icon: python
+        icon_pack: fab
       - name: Data Science
         description: ''
         percent: 100
-        icon: chart-bar
+        icon: chart-line
+        icon_pack: fas
       - name: SQL
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: database
+        icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -87,58 +74,52 @@ skills:
       - name: Hiking
         description: ''
         percent: 60
-        icon: person-simple-walk
+        icon: person-hiking
+        icon_pack: fas
       - name: Cats
         description: ''
         percent: 100
         icon: cat
+        icon_pack: fas
       - name: Photography
         description: ''
         percent: 80
-        icon: camera
+        icon: camera-retro
+        icon_pack: fas
 
-languages:
-  - name: English
-    percent: 65
-  - name: Russion
-    percent: 100
-  - name: Turkish
-    percent: 45
-  - name: Tatarish
-    percent: 70
+# Social/Academic Networking
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: '/#contact'
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/GeorgeCushen
+    label: Follow me on Twitter
+    display:
+      header: true
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/zrdagdelen
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/
+  # Link to a PDF of your resume/CV.
+  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
+  # and uncomment the lines below.
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume.pdf
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 ---
 
-## About Me
-
-Дагделен Зейнап Реджеповна -- студентка Российского Университета Дружбы Народов, обучается на факультете физико-математических и естественных наук. Занимается изучением программирования, высшей математики и в свободное время (что значит - очень редко) создает из глины фигурки, практикует навыки изонити и вышивания розочки из лент. Любит отдыхать, слушая музыку в наушниках, безума от беспроводных наушников. Хочет, чтобы наконец появился робот, который бы помогал ей находить ошибки в процессе выполнения лабораторных по операционным системам, чтобы на них не уходило слишком много времени, также хочет, чтобы была справедливая оценка этого труда.
+Дагделен Зейнап Реджеповна -- студентка Российского Университета Дружбы Народов, обучается на факультете физико-математических и естественных наук. Занимается изучением программирования, высшей математики и в свободное время (что значит - очень редко) создает из глины фигурки, практикует навыки изонити и вышивания розочек из лент. Любит отдыхать, слушая музыку в наушниках, безума от беспроводных наушников. Хочет, чтобы наконец появился робот, который бы помогал ей находить ошибки в процессе выполнения лабораторных по операционным системам, чтобы на них не уходило слишком много времени, также хочет, чтобы была справедливая оценка этого труда.
+{style="text-align: justify;"}
