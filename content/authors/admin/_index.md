@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Зейнап Дагделен Реджеповна
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Зейнап
+last_name: Дагделен
 
 # Status emoji
 status:
@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: студентка ФФМиЕН РУДН
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: РУДН
+    url: https://www.rudn.ru/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -47,65 +47,21 @@ profiles:
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Творчество
+  - Программирование
+  - Пробовать различные необычные и вкусные блюда
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  courses:
+    - course: Изобразительное искусство, лепка
+      institution: Изостудия
+      year: 2015
+    - course: Программирование на Python
+      institution: Сириус курсы. Образовательный центр
+      year: 2020
+    - course: Профильная математика
+      institution: Онлайн школа Фоксфорд
+      year: 2022
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -143,11 +99,13 @@ skills:
 
 languages:
   - name: English
+    percent: 65
+  - name: Russion
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Turkish
+    percent: 45
+  - name: Tatarish
+    percent: 70
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -183,4 +141,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Дагделен Зейнап Реджеповна -- студентка Российского Университета Дружбы Народов, обучается на факультете физико-математических и естественных наук. Занимается изучением программирования, высшей математики и в свободное время (что значит - очень редко) создает из глины фигурки, практикует навыки изонити и вышивания розочки из лент. Любит отдыхать, слушая музыку в наушниках, безума от беспроводных наушников. Хочет, чтобы наконец появился робот, который бы помогал ей находить ошибки в процессе выполнения лабораторных по операционным системам, чтобы на них не уходило слишком много времени, также хочет, чтобы была справедливая оценка этого труда.
