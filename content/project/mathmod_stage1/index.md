@@ -12,7 +12,7 @@ external_link: ''
 image:
   caption: 'Иллюстрация образования планетной системы'
   focal_point: Smart
-
+math: true
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
@@ -70,7 +70,7 @@ $$
 v \sim \frac{1}{\sqrt{r}}
 $$
 
-где $r$ — расстояние до центра.
+где \\(r \\) — расстояние до центра.
 
 
 ##  Математическая модель
