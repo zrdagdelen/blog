@@ -9,6 +9,9 @@ date: '2026-03-17T00:00:00Z'
 external_link: ''
 
 # Убираем весь блок image полностью
+image:
+  caption: 'Иллюстрация образования планетной системы'
+  focal_point: Smart
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
